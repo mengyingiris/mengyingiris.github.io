@@ -1,0 +1,39 @@
+
+  {
+  "description": "Companies I've interacted with",
+
+  "companies": [
+     {
+       "name": "Facebook",
+       "r":47,
+       "g":85,
+       "b":151,
+       "frequency":43
+     },
+     {
+       "name": "Spotify",
+     "r":86,
+     "g":247,
+     "b":142,
+     "frequency":120
+
+   },
+   {
+     "name": "Google",
+     "r":252,
+     "g":210,
+     "b":9,
+     "frequency":300
+   },
+   {
+     "name": "Firefox",
+     "r":255,
+     "g":118,
+     "b":11,
+     "frequency":500
+   }
+
+
+  ]
+
+  }
