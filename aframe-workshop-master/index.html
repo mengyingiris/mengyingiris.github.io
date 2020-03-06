@@ -1,0 +1,157 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <!-- main a-frame library -->
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+
+    <!-- physics library -->
+    <script src="https://cdn.rawgit.com/donmccurdy/aframe-physics-system/v4.0.1/dist/aframe-physics-system.min.js"></script>
+
+    <!-- particle system library -->
+    <script src="https://unpkg.com/aframe-particle-system-component@1.0.x/dist/aframe-particle-system-component.min.js"></script>
+
+    <!-- environment library -->
+    <script src="https://unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js"></script>
+
+    <!-- text geometry library -->
+    <script src="https://unpkg.com/aframe-text-geometry-component@0.5.1/dist/aframe-text-geometry-component.min.js"></script>
+
+    <!-- extras library -->
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+  <!-- <img id="skyTexture" src="images/starmap.jpg"> -->
+  <img id="2" src="images/data.png">
+  <img id="1" src="images/m.jpg">
+  <video id="ing" autoplay loop="true" src="video/ing.mp4"></video>
+  <video id="mountain" autoplay loop="true" src="video/data.mp4"></video>
+  <video id="dl" autoplay loop="true" src="video/dl.mp4"></video>
+  <a-asset-item id="h-obj" src="models/h.obj"></a-asset-item>
+<a-asset-item id="h-mtl" src="models/h.mtl"></a-asset-item>
+
+</a-assets>
+
+<a-entity id="cameraRig" wasd-controls movement-controls
+position = "0 0 2"
+>
+
+        <a-entity camera look-controls position="0 3 0"></a-entity>
+
+</a-entity>
+<a-entity geometry="" scale="4.5 0.9 4.2;" position="0.54438 0.54443 -4.66172" material="color: #cfcfcf">
+  </a-entity>      <!-- //parent entity of pluto sphere -->
+    <a-entity
+    position="0 0 0;"
+    scale="4 4 4;"
+    animation="property: rotation;
+               to: 0 360 0;
+               dur: 15000;
+               easing: linear;
+               loop: true;">
+
+    </a-entity>
+    <a-entity
+geometry="primitive: box;"
+    scale="0.3 0.3 0.3;"
+    rotation:"0 0 0"
+      position="-1.4 1.8 -3"
+      material="src:#1"
+
+      animation="property: rotation;
+      to:360 360 0;
+      dur:15000;
+      easing:linear;
+      loop:true;
+      dir: alternate"
+
+      animation__pos = "property : position;
+      to : -1 3 2;
+      dur: 15000;
+      easing:linear;
+      loop:true;
+      dir: alternate  ">
+    </a-entity>
+
+    <a-entity
+    position="0 0 0;"
+    animation="property: rotation;
+               to: 90 360 0;
+               dur: 50000;
+               easing: linear;
+               loop: true;">
+      <a-entity
+        geometry="primitive: box"
+      scale="0.3 0.3 0.3;"
+        position="2 2 1"
+        material="src:#1"
+        animation__s="property: rotation;
+             to: 90 360 20;
+             dur: 120000;
+             easing: linear;
+             loop: true;">
+      </a-entity>
+    </a-entity>
+
+
+      <!-- <a-entity
+ geometry="primitive: box;"
+      scale="1 1 1;"
+      rotation:"0 0 0"
+        position="1.4 1.8 -3"
+        material="src:#1"
+
+        animation="property: rotation;
+        to:360 160 0;
+        dur:10000;
+        easing:linear;
+        loop:true;
+        dir: alternate"
+
+        animation__pos = "property : position;
+        to : -1 3 2;
+        dur: 10000;
+        easing:linear;
+        loop:true;
+        dir: alternate  ">
+      </a-entity> -->
+
+
+
+      <a-entity static-body
+       geometry="primitive: plane" scale="50 50 1" rotation:"-90="" 0="" 0"="" position="0 -0.31271 -5.236" material="color: white" rotation="-90 0 0">
+      </a-entity>
+      <a-entity static-body="sphereRadius: NaN" geometry="primitive: plane" scale="23 5.9 1.6" rotation:"1.8 164 0.9" position="-0.07 3.41545 5.52615" material="src:#2" rotation="1.860966918584914 179.48189411370603 0.9665798003856988" velocity="">
+        </a-entity>
+      <!-- <a-entity obj-model="obj: #h-obj; mtl: #h-mtl"
+       position="-2.24417 6.94199 0" rotation="" scale="10 10 12"
+
+         > -->
+         <a-entity
+          obj-model="obj: #h-obj; mtl: #h-mtl"
+           position="-2.24417 6.94199 0" rotation="" scale="10 10 12">
+    </a-entity>
+
+  <!-- <a-entity#
+  position="0 2.25 -15"
+  particle-system="preset: snow; size:5">
+</a-entity> -->
+      <!-- <a-text
+  value="Hello!"
+  color="#111"
+  position="0 2.5 -2"
+  align="center">
+</a-text> -->
+
+<a-text
+value="ypu are here"
+color="#111"
+position="0 2.5 -40"
+align="center">
+</a-text>
+<a-video src="#mountain" width="14" height="9" position="0 5 -10"></a-video>
+<a-video src="#dl" width="8" height="8" position="-11.28769 4.59771 -0.64214" material="" geometry="" scale="1.13 1.13 1.13" rotation="0 90 0"></a-video>
+<a-video src="#ing" width="12" height="9" position="9.7899 4.52796 -2.348" material="" geometry="" rotation="0 -77.263 0.5368614540375813"></a-video><a-sky src="#skyTexture"></a-sky>
+</html>
