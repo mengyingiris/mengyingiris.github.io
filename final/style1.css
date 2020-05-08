@@ -1,0 +1,199 @@
+
+/* .t1{
+ 	height: 400px;
+
+width: 800px;
+
+border-style: solid;
+border-width: thin;
+border-color: #848484c2;
+
+    position:relative;
+    top: 10px;
+    left: 130px;
+
+} */
+
+.text{
+  position: absolute;
+  top: 50px;
+left: 220px;
+width: 330px;
+height: 150px;
+}
+
+.button1{
+background-color: rgba(232, 232, 232, 0.25);
+width: 130px;
+
+height: 61px;
+
+padding: 2px;
+
+font-size: 20px;
+
+font-family: sans-serif;
+
+color:
+black;
+
+border-style: solid;
+
+border-width: thin;
+
+border-color:
+
+    #bfbfbed4;
+    opacity: 1;
+    margin-right: 10px;
+    position: relative;
+    top: 380px;
+left: 1020px;
+
+}
+.button4{
+background-color: rgb(232, 219, 188);
+width:1240px;
+height:132.5px;
+padding: 2px;
+font-size: 18px;
+color:rgba(28, 28, 28, 0.75);
+opacity:1;
+margin-right: 10px;
+position:relative;
+top: 380px;
+left: 1020px;
+}
+.button4:hover{
+opacity:0.8;
+
+}
+.button5:hover{
+opacity:0.8;
+
+}
+.button6:hover{
+opacity:0.8;
+
+}
+.button7:hover{
+opacity:0.8;
+
+}
+
+.button2:hover{
+opacity:0.55;
+
+}
+.button3:hover{
+opacity:0.55;
+
+}
+.button5{
+background-color: rgb(232, 210, 210);
+width:1240px;
+height:132.5px;
+padding: 2px;
+font-size: 18px;
+color:rgba(28, 28, 28, 0.75);
+opacity:1;
+margin-right: 10px;
+position:relative;
+top: -421px;
+left: 230px;
+
+}
+.button6{
+background-color: rgb(225, 200, 168);
+width:1240px;
+height:132.5px;
+padding: 2px;
+font-size: 18px;
+color:rgba(28, 28, 28, 0.75);
+opacity:1;
+margin-right: 10px;
+position:relative;
+top: -421px;
+left: 230px;
+
+}
+.button7{
+background-color: rgb(204, 177, 177);
+width:1240px;
+height:132.5px;
+padding: 2px;
+font-size: 18px;
+color:rgba(28, 28, 28, 0.75);
+opacity:1;
+margin-right: 10px;
+position:relative;
+top: -421px;
+left: 230px;
+
+}
+
+.button3{
+background-color: rgba(255, 255, 255, 0.11);
+width:130px;
+height:61px;
+padding: 2px;
+font-size: 16px;
+color:black;
+border-style: solid;
+border-width: thin;
+border-color: #77777791;
+opacity:1;
+margin-right: 10px;
+position: relative;
+top: 380px;
+left: 1020px;
+
+}
+
+.button1:hover{
+opacity:0.5;
+
+}
+
+.button2 {
+
+  background-color: rgba(255, 255, 255, 0.11);
+  width:130px;
+  height:61px;
+  padding: 2px;
+  font-size: 16px;
+  color:black;
+  border-style: solid;
+  border-width: thin;
+  border-color: #77777791;
+  opacity:1;
+  margin-right: 10px;
+  position: relative;
+  top: 380px;
+  left: 1020px;
+
+}
+
+.backButton{
+  background-color: rgba(255, 255, 255, 0.02);
+  width:130px;
+  height:61px;
+  padding: 2px;
+  font-size: 15px;
+  color:black;
+  border-style: solid;
+  border-width: thin;
+  border-color: #77777791;
+  opacity:1;
+  margin-right: 10px;
+  position: relative;
+  top: -30px;
+  left: 800px;
+
+}
+
+
+.tea1{
+
+  background-color: rgb(255, 100, 25);
+}
